@@ -36,13 +36,13 @@ static NSString * const ZMBackendEnvironmentSettingsKeyBackendWSHost        = @"
 static NSString * const ZMBackendEnvironmentSettingsKeyBlacklistEndpoint    = @"env_blacklist_endpoint";
 static NSString * const ZMBackendEnvironmentSettingsKeyFrontendHost         = @"env_frontend_host";
 
-static NSString * const ProductionBackendHost = @"prod-nginz-https.wire.com";
-static NSString * const ProductionBackendWSHost = @"prod-nginz-ssl.wire.com";
-static NSString * const ProductionFrontendHost = @"wire.com";
+static NSString * const ProductionBackendHost = @"ec2-34-250-129-91.eu-west-1.compute.amazonaws.com:8080";
+static NSString * const ProductionBackendWSHost = @"ec2-34-250-129-91.eu-west-1.compute.amazonaws.com:8080";
+static NSString * const ProductionFrontendHost = @"carbid.info";
 
-static NSString * const StagingBackendHost = @"staging-nginz-https.zinfra.io";
-static NSString * const StagingBackendWSHost = @"staging-nginz-ssl.zinfra.io";
-static NSString * const StagingFrontendHost = @"staging-website.zinfra.io";
+static NSString * const StagingBackendHost = @"ec2-34-250-129-91.eu-west-1.compute.amazonaws.com:8080";
+static NSString * const StagingBackendWSHost = @"ec2-34-250-129-91.eu-west-1.compute.amazonaws.com:8080";
+static NSString * const StagingFrontendHost = @"ec2-34-250-129-91.eu-west-1.compute.amazonaws.com:8080";
 
 static NSString * const ZMBlacklistEndPoint_IOS = @"clientblacklist.wire.com/prod/ios";
 static NSString * const ZMBlacklistEndPoint_IOS_Staging = @"clientblacklist.wire.com/staging/ios";
